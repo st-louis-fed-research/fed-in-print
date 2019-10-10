@@ -24,79 +24,94 @@ dcterms:Frequency rdf:type owl:AnnotationProperty .
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Briefing
 :Briefing rdf:type owl:Class ;
+          rdfs:label 'Briefing' ;
           rdfs:subClassOf :GeneralPublication ;
           owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#ConferencePaper
 :ConferencePaper rdf:type owl:Class ;
+                 rdfs:label: 'Conference Paper' ;
                  rdfs:subClassOf :Paper ;
                  owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#DiscussionPaper
-:DiscussionPaper rdf:type owl:Class ;
+:DiscussionPaper rdf:type owl:Class ;   
+                    rdfs:label: 'Discussion Paper' ;
                  rdfs:subClassOf :Paper ;
                  owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Essay
 :Essay rdf:type owl:Class ;
+          rdfs:label 'Essay' ;
        rdfs:subClassOf :SpecialPublication ;
        owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#GeneralPublication
-:GeneralPublication rdf:type owl:Class .
+:GeneralPublication rdf:type owl:Class 
+rdfs:label 'General Publication' .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#JournalArticle
 :JournalArticle rdf:type owl:Class ;
+                    rdfs:label 'Journal-Article' ;
                 rdfs:subClassOf :GeneralPublication ;
                 owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Monograph
 :Monograph rdf:type owl:Class ;
+          rdfs:label 'Monograph' ;
            rdfs:subClassOf :SpecialPublication ;
            owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Newsletter
-:Newsletter rdf:type owl:Class .
+:Newsletter rdf:type owl:Class 
+rdfs:label 'Newsletter' .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Paper
-:Paper rdf:type owl:Class .
+:Paper rdf:type owl:Class 
+rdfs:label 'Paper' .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#PeriodicEssay
 :PeriodicEssay rdf:type owl:Class ;
+                    rdfs:label 'Periodic Essay' ;
                rdfs:subClassOf :SpecialPublication ;
                dcterms:Frequency freq:irregular ;
                owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Proceedings
-:Proceedings rdf:type owl:Class .
+:Proceedings rdf:type owl:Class 
+rdfs:label 'Proceedings' .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Report
 :Report rdf:type owl:Class ;
+          rdfs:label 'Report' ;
         rdfs:subClassOf :GeneralPublication ;
         owl:versionInfo "2019/10/07" .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#SpecialPublication
-:SpecialPublication rdf:type owl:Class .
+:SpecialPublication rdf:type owl:Class 
+rdfs:label 'Special Publication' .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#Speech
-:Speech rdf:type owl:Class .
+:Speech rdf:type owl:Class 
+rdfs:label 'Speech' .
 
 
 ###  https://github.com/st-louis-fed-research/fed-in-print#WorkingPaper
-:WorkingPaper rdf:type owl:Class ;
+:WorkingPaper rdf:type owl:Class 
+                    rdfs:label 'Working Paper' ;
               rdfs:subClassOf :Paper ;
               owl:versionInfo "2019/10/07" .
 
