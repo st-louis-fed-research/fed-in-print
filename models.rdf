@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/st-louis-fed-research/fed-in-print/"
+     xml:base="https://github.com/st-louis-fed-research/fed-in-print/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:freq="http://purl.org/cld/freq/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://github.com/st-louis-fed-research/fed-in-print"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/Frequency -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/Frequency"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Briefing -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Briefing">
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#GeneralPublication"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#ConferencePaper -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#ConferencePaper">
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#Paper"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#DiscussionPaper -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#DiscussionPaper">
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#Paper"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Essay -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Essay">
+         <rdf:label>Essay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#SpecialPublication"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#GeneralPublication -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#GeneralPublication"/>
+    <rdf:label>General Publication</rdfs:label>
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#JournalArticle -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#JournalArticle">
+        <rdf:label>Journal Article</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#GeneralPublication"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Monograph -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Monograph">
+        <rdf:label>Monograph</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#SpecialPublication"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Newsletter -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Newsletter"/>
+    <rdf:label>Newsletter</rdfs:label>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Paper -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Paper"/>
+    <rdf:label>Paper</rdfs:label>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#PeriodicEssay -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#PeriodicEssay">
+        <rdf:label>Periodic Essay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#SpecialPublication"/>
+        <dcterms:Frequency rdf:resource="http://purl.org/cld/freq/irregular"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Proceedings -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Proceedings"/>
+    <rdf:label>Proceedings</rdfs:label>
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Report -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Report">
+        <rdf:label>Report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#GeneralPublication"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#SpecialPublication -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#SpecialPublication"/>
+    <rdf:label>Special Publication</rdfs:label>
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#Speech -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#Speech"/>
+    <rdf:label>Speech</rdfs:label>
+
+
+    <!-- https://github.com/st-louis-fed-research/fed-in-print#WorkingPaper -->
+
+    <owl:Class rdf:about="https://github.com/st-louis-fed-research/fed-in-print#WorkingPaper">
+        <rdf:label>Working Paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/st-louis-fed-research/fed-in-print#Paper"/>
+        <owl:versionInfo>2019/10/07</owl:versionInfo>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
