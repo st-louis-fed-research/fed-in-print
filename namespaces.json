@@ -1,4 +1,5 @@
 {
+ "acl" : "http://www.w3.org/ns/auth/acl#",
  "bf" : "http://id.loc.gov/ontologies/bibframe/",
  "bibo" : "http://purl.org/ontology/bibo/",
  "classSchemes" : "http://id.loc.gov/vocabulary/classSchemes",
