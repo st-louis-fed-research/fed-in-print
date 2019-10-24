@@ -18,7 +18,7 @@
  "identifiers" : "http://id.loc.gov/vocabulary/identifiers/",
  "ldp" : "http://www.w3.org/ns/ldp#",
  "opaque" : "http://opaquenamespace.org/",
- "ore": "http://www.openarchives.org/ore/terms/"
+ "ore": "http://www.openarchives.org/ore/terms/",
  "owl" : "https://www.w3.org/2002/07/owl#",
  "pcdm" : "http://pcdm.org/models#",
  "premis" : "http://www.loc.gov/premis/rdf/v1#",
@@ -29,5 +29,5 @@
  "schema" : "http://schema.org/",
  "skos" : "http://www.w3.org/2004/02/skos/core#",
  "skosxl" : "http://www.w3.org/2008/05/skos-xl",
- "swc" : "http://data.semanticweb.org/ns/swc/ontology",
+ "swc" : "http://data.semanticweb.org/ns/swc/ontology"
 }
