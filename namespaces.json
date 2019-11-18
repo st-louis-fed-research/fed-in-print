@@ -30,5 +30,6 @@
  "schema" : "http://schema.org/",
  "skos" : "http://www.w3.org/2004/02/skos/core#",
  "skosxl" : "http://www.w3.org/2008/05/skos-xl",
- "swc" : "http://data.semanticweb.org/ns/swc/ontology"
+ "swc" : "http://data.semanticweb.org/ns/swc/ontology",
+ "swpo" : "http://sw-portal.deri.org/ontologies/swportal#"
 }
