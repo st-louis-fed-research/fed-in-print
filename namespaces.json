@@ -25,7 +25,7 @@
  "premis" : "http://www.loc.gov/premis/rdf/v1#",
  "rdau" : "http://rdaregistry.info/Elements/u/#",
  "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
- "rdfs" : "https://www.w3.org/TR/rdf-schema/",
+ "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
  "relators" : "http://id.loc.gov/vocabulary/relators/",
  "schema" : "http://schema.org/",
  "skos" : "http://www.w3.org/2004/02/skos/core#",
