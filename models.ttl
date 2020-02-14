@@ -19,6 +19,16 @@ dcterms:Frequency rdf:type owl:AnnotationProperty .
 
 
 #################################################################
+#    Object properties
+#################################################################
+
+### https://github.com/st-louis-fed-research/fed-in-print#hasValidationOf
+:hasValidationOf rdf:type owl:ObjectProperty ;
+          rdfs:label 'Has Validation Of' ;
+          owl:versionInfo "2020/02/14" .
+
+
+#################################################################
 #    Classes
 #################################################################
 
